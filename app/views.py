@@ -97,6 +97,18 @@ def lab07_form_validation():
 @app.route('/lab07b')
 def lab07b():
     return app.send_static_file('lab07b.html')
+
+@app.route('/lab08c')
+def lab08c():
+    return app.send_static_file('lab08c.html')
+
+@app.route('/lab08d')
+def lab08d():
+    return app.send_static_file('lab08d.html')
+
+@app.route('/lab08e')
+def lab08e():
+    return app.send_static_file('lab08e.html')
  
 def read_file(filename, mode="rt"):
     with open(filename, mode, encoding='utf-8') as fin:
